@@ -1,0 +1,17 @@
+{
+  "name": "readme-md",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ivan Yan",
+  "license": "MIT",
+  "private": true,
+  "repository": "yanxyz/readme-md",
+  "bin": {
+    "remd": "cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "minimist": "^1.2.0",
+    "opn": "^5.1.0"
+  }
+}

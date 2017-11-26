@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
+  </head>
+  <body>
+   <div class="container-lg px-3 border-bottom border-gray-light py-2">
+      <div>
+        <a href="{{ '/' | relative_url }}">Index</a>
+      </div>
+    </div>
+    <div class="container-lg px-3 my-5 markdown-body">
+      {{ content }}
+    </div>
+  </body>
+</html>

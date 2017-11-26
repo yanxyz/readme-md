@@ -1,0 +1,10 @@
+/app/*
+!/app/_layouts/
+!/app/_config.yml
+!/app/_Gemfile
+!/app/_build.ps1
+
+.vscode
+node_modules
+package-lock.json
+yarn.lock
